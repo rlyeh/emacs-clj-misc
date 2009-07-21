@@ -1,0 +1,1 @@
+(autoload 'clj-init "clj-init" "Build nice clojure import statements")
