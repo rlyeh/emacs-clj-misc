@@ -1,3 +1,7 @@
+
+;; this goes in your .clojure/user.clj
+
+
 (defn find-classes [regex]
   (let [search-path-properities ["java.class.path" "sun.boot.class.path"]]
     (for [search-path search-path-properities
